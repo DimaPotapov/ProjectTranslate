@@ -1,0 +1,13 @@
+<!doctype html> 
+<html>
+<title>ProjectTranslate</title> 
+<body>
+	<form action="input_text" method="POST">
+		<input type ='text' name = input_text>
+	</form>
+	<form action="output_text" method ="POST">
+		<input type ='text'> 
+	</form>
+	<a href="{{ url_for('translate_') }}"><input type="submit" src='/translate'></a>
+</body>
+</html>
